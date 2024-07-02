@@ -1,8 +1,5 @@
-import pandas
-import hashlib
-import tensorflow
-import tensorflow
-
-print("hi")
-print("hello world")
-print("5+4")
+print("Hello World")
+print(5)
+print("Bye")
+print(17*13)
+print("Hey I am a good boy\nand")
