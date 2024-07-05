@@ -1,41 +1,14 @@
-def add(x, y):
-  return x + y
-
-def subtract(x, y):
-  return x - y
-
-def multiply(x, y):
-  return x * y
-
-def divide(x, y):
-  if y == 0:
-      return "Error! Division by zero."
-  else:
-      return x / y
-
-def calculator():
-  print("Welcome to the Python Calculator!")
-  print("Select operation:")
-  print("1. Addition")
-  print("2. Subtraction")
-  print("3. Multiplication")
-  print("4. Division")
-
-  choice = input("Enter choice (1/2/3/4): ")
-
-  if choice in ['1', '2', '3', '4']:
-      num1 = float(input("Enter first number: "))
-      num2 = float(input("Enter second number: "))
-
-      if choice == '1':
-          print(f"{num1} + {num2} = {add(num1, num2)}")
-      elif choice == '2':
-          print(f"{num1} - {num2} = {subtract(num1, num2)}")
-      elif choice == '3':
-          print(f"{num1} * {num2} = {multiply(num1, num2)}")
-      elif choice == '4':
-          print(f"{num1} / {num2} = {divide(num1, num2)}")
-  else:
-      print("Invalid input. Please select a valid operation.")
-
-calculator()
+n = 15 
+m = 7 
+ans1 = n+m
+print("Addition of",n,"and",m,"is", ans1)
+ans2 = n-m
+print("Subtraction of",n,"and",m,"is", ans2)
+ans3 = n*m
+print("Multiplication of",n,"and",m,"is", ans3)
+ans4 = n/m
+print("Division of",n,"and",m,"is", ans4)
+ans5 = n%m
+print("Modulus of",n,"and",m,"is", ans5)
+ans6 = n//m
+print("Floor Division of",n,"and",m,"is", ans6)
